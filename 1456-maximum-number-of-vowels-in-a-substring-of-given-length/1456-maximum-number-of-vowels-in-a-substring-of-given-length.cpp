@@ -1,13 +1,13 @@
 class Solution {
 public:
     int maxVowels(string s, int k) {
-        string vowel = "aeiou";
-
         int l = 0, r = 0, v = 0, max = 0;
         while (r < s.length()) {
-            if (vowel.find(s[r++]) != string::npos) {
+            if (s[r] == 'a' || s[r] == 'e' || s[r] == 'i' || s[r] == 'o' || s[r] == 'u') {
                 ++v;
             }
+            ++r;
+
             if (v > max) {
                 if (v == k) {
                     return k;
@@ -15,9 +15,10 @@ public:
                 max = v;
             }
             if (r - l == k) {
-                if (vowel.find(s[l++]) != string::npos) {
+                if (s[l] == 'a' || s[l] == 'e' || s[l] == 'i' || s[l] == 'o' || s[l] == 'u') {
                     --v;
                 }
+                ++l;
             }
         }
 
