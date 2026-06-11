@@ -1,22 +1,11 @@
 class Solution {
 public:
     int maxVowels(string s, int k) {
-        vector<bool> vowel = {
-            // abcde
-            true, false, false, false, true,
-            // fghij
-            false, false, false, true, false,
-            // klmno
-            false, false, false, false, true,
-            // pqrst
-            false, false, false, false, false,
-            // uvwxyz
-            true, false, false, false, false, false
-        };
+        string vowel = "aeiou";
 
         int l = 0, r = 0, v = 0, max = 0;
         while (r < s.length()) {
-            if (vowel[s[r++] - 'a']) {
+            if (vowel.find(s[r++]) != string::npos) {
                 ++v;
             }
             if (v > max) {
@@ -26,7 +15,7 @@ public:
                 max = v;
             }
             if (r - l == k) {
-                if (vowel[s[l++] - 'a']) {
+                if (vowel.find(s[l++]) != string::npos) {
                     --v;
                 }
             }
