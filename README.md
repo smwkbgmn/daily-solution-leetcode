@@ -11,6 +11,7 @@ A collection of solutions for LeetCode questions to practice various data struct
 | [0435-non-overlapping-intervals](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0643-maximum-average-subarray-i](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/0724-find-pivot-index) |
+| [0735-asteroid-collision](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/0739-daily-temperatures) |
 | [0876-hand-of-straights](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/0876-hand-of-straights) |
 | [1044-find-common-characters](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/1044-find-common-characters) |
@@ -89,6 +90,7 @@ A collection of solutions for LeetCode questions to practice various data struct
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/0735-asteroid-collision) |
 | [1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [2390-removing-stars-from-a-string](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Counting Sort
@@ -109,6 +111,7 @@ A collection of solutions for LeetCode questions to practice various data struct
 ## Stack
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/0739-daily-temperatures) |
 | [2390-removing-stars-from-a-string](https://github.com/smwkbgmn/daily_solution_leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Design
